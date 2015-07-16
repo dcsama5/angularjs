@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Getting Started: Handing Form Submission</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link href="../static/main.css"
+          th:href="@{main.css}"
+          rel="stylesheet" media="screen" />
+    <script th:src="@{/webjars/angular/1.4.3/angular.min.js}"/>
+</head>
+<body>
+	<div ng-app="">
+
+<p>Name: <input type="text" ng-model="name"/></p>
+<p>You wrote: {{ name }}</p> 
+
+</div>
+</body>
+</html>
