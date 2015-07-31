@@ -47,6 +47,12 @@
     <artifactId>angular</artifactId>
     <version>1.4.3</version>
 	</dependency>
+	
+	<dependency>
+    <groupId>org.webjars.npm</groupId>
+    <artifactId>bootstrap</artifactId>
+    <version>3.3.5</version>
+	</dependency>
     
         
         <!-- end::actuator[] -->
